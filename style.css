@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+  }
+  
+  header {
+    background: #008000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-btn {
+    background: white;
+    color: #008000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 128, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn, .btn-outline {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background: white;
+    color: #008000;
+  }
+  
+  .btn-outline {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #ffffff;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 20%;
+  }
+  
+  .how-it-works {
+    padding: 40px;
+    background: #f0f0f0;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .step {
+    width: 20%;
+  }
+  
+  .testimonials {
+    padding: 40px;
+    text-align: center;
+    background: #ffffff;
+  }
+  
+  .testimonial {
+    margin: 20px;
+  }
+  
+  .become-partner {
+    background: #008000;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .store-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: #008000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content div {
+    width: 20%;
+  }
+  
